@@ -1,0 +1,72 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 18 jun 2023, 19:53:35
+    Author     : jitor
+*/
+
+.button {
+    -fx-background-color: #82CD47;
+    -fx-background-radius: 20;
+    -fx-border-color: #379237;
+    -fx-border-width: 0;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Impact";
+    -fx-font-size: 24px;
+    -fx-pref-width: 110px;
+    -fx-pref-height: 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 5, 0, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #6BBF56;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-background-color: #379237;
+    -fx-text-fill: #ffffff;
+}
+
+#btnStepBack {
+    
+    -fx-background-color: #82CD47;
+    -fx-background-radius: 20;
+    -fx-border-color: #379237;
+    -fx-border-width: 0;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Impact";
+    -fx-font-size: 24px;
+    -fx-pref-width: 150px;
+    -fx-pref-height: 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.8), 5, 0, 0, 1);
+}
+
+#btnNext {
+    
+     -fx-background-color: #ffb31a;
+    -fx-background-radius: 20;
+    -fx-border-color: #693200;
+    -fx-border-width: 0;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Impact";
+    -fx-font-size: 24px;
+    -fx-pref-width: 166px;
+    -fx-pref-height: 60px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.8) , 5,0,0,1 );
+}
+
+
+#btnNext:hover {
+    -fx-background-color: #ffcc33;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand; 
+}
+
+#btnNext:pressed {
+    -fx-background-color: #d98c00;
+    -fx-text-fill: #ffffff;
+}

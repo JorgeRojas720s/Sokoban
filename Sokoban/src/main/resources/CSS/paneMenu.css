@@ -1,0 +1,33 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 14 jun 2023, 00:51:17
+    Author     : jitor
+*/
+
+.button {
+    -fx-background-color: #ffb31a;
+    -fx-background-radius: 20;
+    -fx-border-color: #693200;
+    -fx-border-width: 0;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Impact";
+    -fx-font-size: 24px;
+    -fx-pref-width: 166px;
+    -fx-pref-height: 60px;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.8) , 5,0,0,1 );
+}
+
+.button:hover {
+    -fx-background-color: #ffcc33;
+    -fx-text-fill: #ffffff;
+    -fx-cursor: hand; 
+}
+
+.button:pressed {
+    -fx-background-color: #d98c00;
+    -fx-text-fill: #ffffff;
+}
+

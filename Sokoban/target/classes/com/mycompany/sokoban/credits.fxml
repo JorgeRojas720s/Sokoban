@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="728.0" prefWidth="1366.0" stylesheets="@../../../CSS/paneMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.sokoban.CreditsController">
+   <children>
+      <ImageView fitHeight="882.0" fitWidth="1393.0" layoutX="-16.0" layoutY="-124.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../credits.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="679.0" layoutY="37.0" text="Universidad Nacional" textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="795.0" layoutY="160.0" text="Ingenieria en Sistemas" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="871.0" layoutY="248.0" text="Programacion ll" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="866.0" layoutY="346.0" text="Jorge Rojas Mena" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="859.0" layoutY="449.0" text="ll Ciclo l Semestre" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="944.0" layoutY="544.0" text="Año 2023" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="43.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBack" layoutX="34.0" layoutY="36.0" mnemonicParsing="false" onAction="#switchToMenuScene" prefHeight="73.0" prefWidth="155.0" text="Back">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

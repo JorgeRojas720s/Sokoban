@@ -1,0 +1,4 @@
+com\mycompany\sokoban\MenuController.class
+module-info.class
+com\mycompany\sokoban\PlayerController.class
+com\mycompany\sokoban\App.class
